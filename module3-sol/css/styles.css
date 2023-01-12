@@ -1,0 +1,123 @@
+body {
+  font-size: 16px;
+  color: #000000;
+  background-color: #FFFFFF;
+  font-family: sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #808080;
+  margin-top: 0px;
+  border-radius: 0;
+  height: auto;
+  margin-left: 0.1px;
+  border: 3px solid #000000;
+}
+
+.navbar-brand {
+position: relative;
+padding-left: 0px;
+vertical-align: middle;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font: calibri;
+  color: #000000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  vertical-align: middle;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+#nav-list {
+text-align: center;
+padding: 0px;
+margin: 0px -15px;
+background-color: #FFFFFF;
+}
+#nav-list li {
+border-top: 3px solid #000000;
+}
+
+#nav-list a {
+  color: #000000;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+  color: #000000;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #000000;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+.navbar-header button.navbar-toggle a:focus {
+border: 2px solid #FFFFFF;
+}
+
+#menu {
+  margin-top: -5px;
+  margin-bottom: 30px;
+  font-family: sans-serif;
+  display: block;
+  font-size: 1.8em;
+  font-weight: bold;
+}
+#main-content {
+width: 95%;
+padding-left: 15px;
+padding-right: 15px;
+}
+.menu-tile {
+background-color: #808080;
+margin-bottom: 15px;
+height: 1000px;
+padding: 5px;
+border: none;
+font-family: Helvetica;
+color: black;
+margin: 3px ;
+overflow: auto;
+align-content: center;
+}
+.menu-title p {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+@media (max-width: 479px) {
+.navbar-brand h1 {
+  padding-top: 5px;
+  font-size: 9vw;
+  margin-left: 10px;
+  margin-right: 0px;
+ }
+.navbar-header button.navbar-toggle {
+  margin-right: 5px;
+}
+#main-content {
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 0px;
+}
+}
